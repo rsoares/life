@@ -1,0 +1,19 @@
+{
+  "name": "life",
+  "version": "0.0.0",
+  "description": "A version of Conway's \"Game of Life\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack-dev-server --inline --hot"
+  },
+  "author": "Ricardo Soares",
+  "license": "MIT",
+  "dependencies": {
+    "p5": "^0.5.4"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
